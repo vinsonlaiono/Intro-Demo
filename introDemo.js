@@ -50,17 +50,6 @@ if(coinTossHeads !== false){
     console.log("harry is allowed to run away");
 }
 
-// for(let i=0; i<=7; i++){
-//     if(harryHealth <= 0){
-//         console.log("Harry has been slain")
-//     } else {
-//         harryHealth -= (lordVAttack - harryDefense)
-//         console.log(`Harry's health is ${harryHealth}`);
-//     }
-// }
-
-
-
 while(harryHealth > 0){
     harryHealth -= (lordVAttack - harryDefense)
     console.log(`Harry's health is ${harryHealth}`);
@@ -69,3 +58,5 @@ while(harryHealth > 0){
         console.log("Harry has been slain")
     }    
 }
+
+console.log("Godo job Harry")
